@@ -1,0 +1,168 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: "SF Pro Text", sans-serif;
+  background-color: grey;
+}
+
+/*statusbar*/
+.container {
+  background-color: #ffffff;
+  width: 375px;
+  height: 667px;
+  display: block;
+  margin: 0 500px;
+}
+
+.status-bar {
+  margin: 0;
+  width: 375px;
+  position: fixed;
+  top: 0px;
+  left: 500px;
+}
+
+/*navigation*/
+nav {
+  margin-top: 0;
+  width: 375px;
+  height: 44px;
+  background-color: #F7A45E;
+  /*padding: 3px 0 15px 0px;*/
+  top: 20px;
+  position: fixed;
+}
+
+.back {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin: 0;
+  width:10%;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+}
+
+.page-title {
+  display: inline-block;
+  padding-left: 110px;
+  width: 50%;
+  font-size: 1.8em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*map*/
+.map {
+  height: 300px;
+  width: 375px;
+  background: url("../images/map.png");
+  /*background-size: cover;  cover does not work here*/
+  background-repeat: no-repeat;
+  background-position: 500px 60px;
+  background-attachment: fixed;
+}
+
+/*make the screen to be able to scroll*/
+.screen {
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  /*height: 603px;*/
+  margin-top: 64px;
+}
+
+/*content*/
+.content {
+  background-color: #ffffff;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-style: normal;
+}
+
+.busstop {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*button*/
+h5 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.direction-button {
+  background-color: #65D3FF;
+  display: block;
+  float: left;
+  width: 20%;
+  margin: 25px 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h4 {
+  font-size: 1.4em;
+  color: #8A8A8F;
+}
+
+/* bus number tag */
+
+.tag {
+  display: block;
+  float: left;
+  background-color: #F7A45E;
+  padding: 8px 10px;
+  text-align: center;
+  width: 21%;
+  border-radius: 5px;
+}
+
+.direction {
+  display: block;
+  float: left;
+  width: 47%;
+  margin-left: 3%;
+}
+
+
+.arriving-time {
+  display: block;
+  float: left;
+  width: 20%;
+  margin-left: 1%;
+  text-align: center;
+}
+
+.fivemin h3 {
+  color: #E23C3C;
+  font-weight: bold;
+}
+
+i {
+  width: 4%;
+  display: block;
+  float: left;
+  margin-left: 3%;
+  margin: 5px 0 38px 0;
+}
+
+.n6x .arriving-time h4 {
+  display: none;
+}
