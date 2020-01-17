@@ -61,7 +61,7 @@ nav {
 .map {
   height: 300px;
   width: 375px;
-  background: url("../images/map.png");
+  background: url("../images/maps.png");
   /*background-size: cover;  cover does not work here*/
   background-repeat: no-repeat;
   background-position: 500px 60px;
