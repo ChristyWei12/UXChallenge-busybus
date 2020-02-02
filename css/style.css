@@ -155,6 +155,10 @@ h4 {
   font-weight: bold;
 }
 
+.n4 .arriving-time h3, .n20 .arriving-time h3, .n157 .arriving-time h3 {
+  color: #8A8A8F;
+}
+
 i {
   width: 4%;
   display: block;
